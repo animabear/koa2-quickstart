@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文件上传</title>
+</head>
+<body>
+    <h1>koa2 upload demo</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <p>file upload</p>
+        <span>picName:</span>
+        <input name="picName" type="text" />
+        <br/>
+        <input name="file" type="file" />
+        <br/>
+        <br/>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
