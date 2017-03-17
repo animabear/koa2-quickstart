@@ -2,7 +2,7 @@
 
 This is a quickstart of koa2, also a quick study of koa2. These demo were created by koa2, refer to [https://chenshenhai.github.io/koa2-note/](https://chenshenhai.github.io/koa2-note/).
 
-## demo
+## Demo
 
 * helloworld
 * get_demo
@@ -15,4 +15,15 @@ This is a quickstart of koa2, also a quick study of koa2. These demo were create
 * 404
 * fileupload `todo`
 * mongodb `todo`
+
+## Getting Start
+
+node7.6.0+
+
+```shell
+git clone https://github.com/animabear/koa2-quickstart.git
+cd koa2-quickstart
+npm install
+npm start
+```
 
